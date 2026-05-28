@@ -1,0 +1,12 @@
+x = int(input('numero 1'))
+y = int(input('numero 2'))
+calc = input('+,/,-,*')
+if calc =='+':
+    print(x + y)
+elif calc =='-':
+    print('x - y')
+elif calc =='/':
+    print(x / y)
+elif calc== '*':
+    print(x * y)
+    
